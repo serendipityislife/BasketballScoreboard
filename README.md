@@ -1,6 +1,6 @@
 # Basketball Scoreboard
 
-Added a nice font for the scoreboard.
+My First Scoreboard - testing my JS skills and added a nice font for the counters.
 
 Quick start:
 
