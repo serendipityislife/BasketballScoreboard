@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+@font-face {
+  font-family:"CustomFont";
+  src: url("CursedTimer.ttf") format("truetype");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+H3 {
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+}
+
+h2 {
+    font-family: "CustomFont";
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+background: #080001;
+color: #F94F6D;
+
+}
+
+.chg-btn {
+    font-family: "CustomFont";
+    font-style: normal;
+    color: #9AABD8;
+        background: #1B244A;
+        border: 2px solid #9AABD8;
+border-radius: 5px;
+width: 45px;
+height: 45px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    color: #9AABD8;
+}
+
+.cards {
+    width: 150px;
+    margin: 30px 10px 0 10px; 
+}
+#reset {
+ 
+   display: block;
+   width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+padding: 5px 0;
+        border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+
+#reset:hover {
+        /* text-shadow: 5px -5px 5px black; */
+        font-size: 17px;
+        color: whitesmoke;
+        background: #059669;
+}
